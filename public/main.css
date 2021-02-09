@@ -1,30 +1,33 @@
 body {
-  padding: 30px;
   background-color: #84888a;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
+  text-align: center;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  max-width: 90%;
+h1{
+  padding: 7% 15%;
+  padding-bottom: 0px;
+  padding-top: 40px;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
 }
 
-input {
-  font-size: 1.2em;
-  padding: 5px;
-  margin-bottom: 10px;
+.container{
+  padding: 7% 15%;
+  padding-top: 50px;
+  padding-left: 350px;
+  text-align: center;
+  line-height: 5rem;   
 }
 
-button {
-  padding: 10px;
-  background-color: #0f5f74;
-  border: none;
-  color: #fff;
+#inputGroup-sizing-sm{
+  padding: 7% 15%;
+  text-align: center;
+  margin-right: 200px;
 }
 
-button:hover {
-  box-shadow: 3px 2px 3px #6a7988;
+.btn{
+  margin-left: 150px;
 }
